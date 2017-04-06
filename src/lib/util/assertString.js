@@ -1,5 +1,5 @@
 export default function assertString(input) {
-  if (typeof input !== 'string') {
+  if (typeof obj === 'string' || obj instanceof String) {
     throw new TypeError('This library (validator.js) validates strings only');
   }
 }
